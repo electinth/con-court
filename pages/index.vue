@@ -1,5 +1,7 @@
 <template>
-  <div class="text-white bg-red">Test</div>
+  <div id="container" class="pb-36">
+    <Intro />
+  </div>
 </template>
 
 <script>

@@ -1,5 +1,4 @@
 * {
-  line-height: 100%;
   scroll-behavior: smooth;
   outline: none;
 }
@@ -64,50 +63,8 @@
   }
 }
 
-.S_01 {
-  font-size: 33px;
-  font-weight: 700;
-  font-family: 'Anuphan';
-  @media screen and (max-width: 767px) {
-    font-size: 16px;
-  }
-}
-.S_02 {
-  font-size: 27px;
-  font-weight: 700;
-  font-family: 'Anuphan';
-  @media screen and (max-width: 767px) {
-    font-size: 14.5px;
-  }
-}
-.S_03 {
-  font-size: 23px;
-  font-weight: 700;
-  font-family: 'Anuphan';
-  @media screen and (max-width: 767px) {
-    font-size: 13.5px;
-  }
-}
-.S_04 {
-  font-size: 19px;
-  font-weight: 700;
-  font-family: 'Anuphan';
-  @media screen and (max-width: 767px) {
-    font-size: 12px;
-  }
-}
-.S_05 {
-  font-size: 16px;
-  font-weight: 700;
-  font-family: 'Anuphan';
-  @media screen and (max-width: 767px) {
-    font-size: 11px;
-  }
-}
-
 .B_01 {
   font-size: 33px;
-  font-weight: 400;
   font-family: 'Anuphan';
   @media screen and (max-width: 767px) {
     font-size: 16px;
@@ -115,7 +72,6 @@
 }
 .B_02 {
   font-size: 27px;
-  font-weight: 400;
   font-family: 'Anuphan';
   @media screen and (max-width: 767px) {
     font-size: 14.5px;
@@ -123,7 +79,6 @@
 }
 .B_03 {
   font-size: 23px;
-  font-weight: 400;
   font-family: 'Anuphan';
   @media screen and (max-width: 767px) {
     font-size: 13.5px;
@@ -131,7 +86,6 @@
 }
 .B_04 {
   font-size: 19px;
-  font-weight: 400;
   font-family: 'Anuphan';
   @media screen and (max-width: 767px) {
     font-size: 12px;
@@ -139,7 +93,6 @@
 }
 .B_05 {
   font-size: 16px;
-  font-weight: 400;
   font-family: 'Anuphan';
   @media screen and (max-width: 767px) {
     font-size: 11px;
