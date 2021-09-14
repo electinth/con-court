@@ -1,6 +1,7 @@
 <template>
   <div id="container" class="pb-36">
-    <Intro />
+    <!-- <Intro /> -->
+    <Timeline />
   </div>
 </template>
 
