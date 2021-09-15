@@ -73,9 +73,6 @@ export default {
       date: '',
     }
   },
-  mounted() {
-    // console.log(this.index, 'test')
-  },
   watch: {
     data_list: {
       immediate: true,
