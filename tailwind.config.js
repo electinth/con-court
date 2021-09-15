@@ -11,7 +11,8 @@ module.exports = {
       red: '#EF364C',
       negativeRed: '#F0324B',
       positiveGreen: '#B1FD97',
-      absentGray: '#CFCFCF'
+      absentGray: '#CFCFCF',
+      lightGrey: '#F0F0F0'
     },
     extend: {},
   },

@@ -1,6 +1,6 @@
 <template>
   <div id="timeline-wrapper" v-if="data.length" class="relative h-full">
-    <div class="absolute w-full h-full" id="sticky-wrapper">
+    <div class="absolute w-full h-full pointer-events-none" id="sticky-wrapper">
       <EraTitle :data="data[current_step]" />
       <EraFooterTack :data="data" :current_step="current_step" />
     </div>
@@ -13,7 +13,19 @@
         :data-step="index"
       >
         <EraYear :date="d.date" />
-        <EraCard :data_list="d" :index="index" />
+        <div class="container flex justify-center w-full">
+          <JudgeGrid
+            side_case="1"
+            :number_case="d.number_case"
+            v-if="d.role === 'case'"
+          />
+          <EraCard :data_list="d" :index="index" class="px-[50px]" />
+          <JudgeGrid
+            side_case="2"
+            :number_case="d.number_case"
+            v-if="d.role === 'case'"
+          />
+        </div>
       </div>
     </Scrollama>
   </div>
@@ -29,6 +41,7 @@ import EraYear from './EraYear.vue'
 import EraTitle from './EraTitle.vue'
 import EraCard from './EraCard.vue'
 import EraFooterTack from './EraFooterTack.vue'
+import JudgeGrid from './JudgeGrid.vue'
 export default {
   components: {
     Scrollama,
@@ -36,6 +49,7 @@ export default {
     EraYear,
     EraCard,
     EraFooterTack,
+    JudgeGrid,
   },
   data() {
     return {
