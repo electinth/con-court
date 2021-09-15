@@ -13,8 +13,6 @@ jobs:
     steps:
       - name: Checkout source code
         uses: actions/checkout@v2
-      # - name: Populate data JSONs
-      #   run: ./populate-data.sh
       - uses: actions/setup-node@v2
         with:
           node-version: '12'
