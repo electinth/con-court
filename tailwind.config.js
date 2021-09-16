@@ -12,7 +12,10 @@ module.exports = {
       negativeRed: '#F0324B',
       positiveGreen: '#B1FD97',
       absentGray: '#CFCFCF',
-      lightGrey: '#F0F0F0'
+      lightGrey: '#F0F0F0',
+      tableHead: '#EAEAEA',
+      tableGray: '#F2F2F2',
+      headertable: '#DCDCDC'
     },
     extend: {},
   },

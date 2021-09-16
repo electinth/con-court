@@ -1,5 +1,8 @@
 <template>
-  <div id="era-wrapper" class="sticky top-0 pt-24 mx-auto w-[708px] z-10">
+  <div
+    id="era-wrapper"
+    class="sticky top-0 pt-24 mx-auto w-[708px] z-10 mb-[50%]"
+  >
     <div class="relative flex justify-center px-1 text-white bg-black H_05">
       <div id="img_era">
         <img

@@ -9,6 +9,7 @@
       z-10
       flex flex-col
       mt-[30%]
+      mb-[5%]
       bg-white
     "
   >
@@ -35,31 +36,18 @@
       id="hint-track"
       class="flex justify-center border border-t-0 border-black px-[6px]"
     >
-      <div
-        v-for="hint in hint_data"
-        :key="hint.name"
-        class="flex items-center B_05 mx-2.5"
-      >
-        <div
-          class="w-[12px] h-[12px] rounded-full border border-black"
-          :class="{
-            'bg-positiveGreen': hint.name === 'ผลบวกต่อรัฐบาล',
-            'bg-negativeRed': hint.name === 'ผลลบต่อรัฐบาล',
-            'bg-absentGray': hint.name === 'เหตุการณ์',
-            'border-absentGray': hint.name === 'เหตุการณ์',
-          }"
-        />
-        <p class="ml-[5px]">{{ hint.name }}</p>
-      </div>
+      <HintTrack />
     </div>
   </div>
 </template>
 
 <script>
 import IntertImageInTracking from './IntertImageInTracking.vue'
+import HintTrack from '../util/HintTrack.vue'
 export default {
   components: {
     IntertImageInTracking,
+    HintTrack,
   },
   props: {
     data: {
@@ -72,15 +60,6 @@ export default {
       required: false,
       default: 0,
     },
-  },
-  data() {
-    return {
-      hint_data: [
-        { name: 'ผลบวกต่อรัฐบาล' },
-        { name: 'ผลลบต่อรัฐบาล' },
-        { name: 'เหตุการณ์' },
-      ],
-    }
   },
 
   watch: {
