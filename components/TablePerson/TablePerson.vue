@@ -24,7 +24,7 @@
       </div>
       <HeaderTablePerson />
     </div>
-    <TableJudge class="h-full" />
+    <TableJudge class="h-full overflow-y-auto" />
   </div>
 </template>
 

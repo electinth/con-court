@@ -42,7 +42,7 @@
       >
         {{ data_list.name }}
       </p>
-      <SeeMore :index="index" />
+      <SeeMore :index="index" :data="data_list" />
     </div>
   </div>
 </template>
