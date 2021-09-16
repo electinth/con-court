@@ -19,7 +19,9 @@
             :number_case="d.number_case"
             v-if="d.role === 'case'"
           />
+          <EventLeftWing v-if="d.role === 'event'" />
           <EraCard :data_list="d" :index="index" class="px-[50px]" />
+          <EventRightWing v-if="d.role === 'event'" />
           <JudgeGrid
             side_case="2"
             :number_case="d.number_case"
@@ -42,6 +44,8 @@ import EraTitle from './EraTitle.vue'
 import EraCard from './EraCard.vue'
 import EraFooterTack from './EraFooterTack.vue'
 import JudgeGrid from './JudgeGrid.vue'
+import EventLeftWing from './EventLeftWing.vue'
+import EventRightWing from './EventRightWing.vue'
 export default {
   components: {
     Scrollama,
@@ -50,6 +54,8 @@ export default {
     EraCard,
     EraFooterTack,
     JudgeGrid,
+    EventLeftWing,
+    EventRightWing,
   },
   data() {
     return {
