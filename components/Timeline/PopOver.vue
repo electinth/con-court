@@ -1,5 +1,5 @@
 <template>
-  <div id="popover-wrapper" class="px-3 py-2 mt-2 bg-white border border-black">
+  <div id="popover-wrapper" class="mt-2 bg-white">
     <p class="font-bold B_05" id="name">
       {{ person.name_surname_person }}
     </p>

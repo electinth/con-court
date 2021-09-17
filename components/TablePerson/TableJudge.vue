@@ -138,4 +138,11 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss">
+.el-popover {
+  border: 1px solid #000000;
+}
+.popper__arrow {
+  display: none !important;
+}
+</style>
