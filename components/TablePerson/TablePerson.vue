@@ -2,7 +2,14 @@
   <div id="table-person-wrapper" class="h-screen overflow-hidden">
     <div
       id="top-table"
-      class="h-[241px] bg-tableHead flex flex-col justify-center relative"
+      class="
+        h-[133px]
+        md:h-[241px]
+        bg-tableHead
+        flex flex-col
+        justify-center
+        relative
+      "
     >
       <div class="container mx-auto">
         <div
@@ -10,12 +17,15 @@
           class="
             bg-white
             border border-black
-            w-[578px]
+            lg:w-[578px]
+            md:w-[450px]
+            w-max
             mx-auto
             flex
             justify-center
             relative
-            h-[36px]
+            md:h-[36px]
+            h-[20px]
           "
         >
           <HintTrack />

@@ -3,7 +3,7 @@
     <div
       v-for="hint in hint_data"
       :key="hint.name"
-      class="flex items-center B_05 mx-2.5"
+      class="flex items-center B_05 md:mx-2.5 mx-1.5"
     >
       <div
         class="

@@ -11,26 +11,38 @@
         <img
           slot="reference"
           class="
-            w-[40px]
-            h-[40px]
+            w-[15px]
+            h-[15px]
+            md:w-[30px] md:h-[30px]
+            lg:w-[40px] lg:h-[40px]
             rounded-full
             border-black border
             cursor-pointer
             absolute
+            lg:left-[-60px]
+            md:left-[-50px]
+            left-[-25px]
           "
           :src="
             require(`assets/images/ภาพตุลาการ/${ReplaceString(
               judge.name_surname_person
             )}.png`)
           "
-          style="left: -60px; top: 50%; transform: translateY(-50%)"
+          style="top: 50%; transform: translateY(-50%)"
         />
       </el-popover>
       <div class="flex justify-center" id="row">
         <div
           v-for="c in number_all_case"
           :key="c"
-          class="flex items-center justify-center py-[18px] relative"
+          class="
+            flex
+            items-center
+            justify-center
+            py-[5px]
+            md:py-[18px]
+            relative
+          "
           :class="SetBG(c) ? 'bg-tableGray' : ''"
         >
           <div
@@ -39,21 +51,29 @@
               bg-lightGrey
               relative
               z-10
-              w-[24px]
-              h-[24px]
+              w-[9px]
+              h-[9px]
+              md:w-[19px] md:h-[19px]
+              lg:w-[24px] lg:h-[24px]
               rounded-full
               border border-absentGray
-              mx-[6px]
+              lg:mx-[6px]
+              md:mx-[4px]
+              mx-[1.5px]
             "
           />
           <div
             v-else
             class="
-              w-[24px]
-              h-[24px]
+              w-[9px]
+              h-[9px]
+              md:w-[19px] md:h-[19px]
+              lg:w-[24px] lg:h-[24px]
               rounded-full
               border border-black
-              mx-[6px]
+              lg:mx-[6px]
+              md:mx-[4px]
+              mx-[1.5px]
               relative
               z-10
             "
@@ -62,7 +82,7 @@
             "
           />
           <div
-            class="absolute z-0 w-full border-b-4 border-b-absentGray"
+            class="absolute z-0 w-full border-b  md:border-b-4 border-b-absentGray"
             :class="{
               'w-[50%] left-0': c === number_all_case,
               'w-[50%] right-0': c === 1,

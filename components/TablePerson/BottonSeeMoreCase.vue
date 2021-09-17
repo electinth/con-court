@@ -3,8 +3,9 @@
     class="
       absolute
       B_06
-      w-[64px]
-      h-[64px]
+      w-[37px]
+      h-[37px]
+      md:w-[64px] md:h-[64px]
       bg-black
       rounded-full
       text-white
@@ -20,7 +21,10 @@
     "
     @click="openModal"
   >
-    <img :src="require('assets/images/plus.svg')" width="17px" />
+    <img
+      :src="require('assets/images/plus.svg')"
+      :width="$mq === 'mobile' ? 8 : 17"
+    />
     รายชื่อ<br />
     คดี
   </div>

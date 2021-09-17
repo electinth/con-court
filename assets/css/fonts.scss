@@ -111,13 +111,16 @@
   font-size: 16px;
   font-family: 'Anuphan';
   @media screen and (max-width: 767px) {
-    font-size: 11px;
+    font-size: 9px;
   }
   @media screen and (max-width: 569px) {
-    font-size: 9px;
+    font-size: 7px;
   }
 }
 .B_06 {
   font-size: 11px;
   font-family: 'Anuphan';
+  @media screen and (max-width: 767px) {
+    font-size: 6px;
+  }
 }

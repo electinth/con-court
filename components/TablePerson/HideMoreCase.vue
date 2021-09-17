@@ -2,8 +2,11 @@
   <div
     id="hide-more-case-wrapper"
     class="
-      sticky
-      w-[80%]
+      lg:sticky
+      fixed
+      lg:w-[80%]
+      w-screen
+      h-full
       bg-tableHead
       z-20
       border border-black
@@ -11,29 +14,41 @@
       B_05
       py-7
       px-12
-      flex
+      flex flex-col
+      lg:flex-row
       space-x-3
       hidden
+      overflow-y-auto
+      lg:overflow-y-visible
     "
   >
     <img
       :src="require('assets/images/close.svg')"
-      class="absolute top-0 right-0 cursor-pointer"
+      class="
+        absolute
+        top-0
+        right-0
+        cursor-pointer
+        w-[16px]
+        md:w-[26px]
+        m-3
+        lg:m-0
+      "
       @click="closeModal"
     />
-    <div class="flex flex-col flex-1 space-y-3">
+    <div class="flex flex-col space-y-3 lg:flex-1">
       <div v-for="(item, index) in hint_1" :key="index + 1" class="flex">
         <div class="mr-5 font-bold">{{ item.number }}</div>
         <div>{{ item.content }}</div>
       </div>
     </div>
-    <div class="flex flex-col flex-1 space-y-3">
+    <div class="flex flex-col space-y-3 lg:flex-1">
       <div v-for="(item, index) in hint_2" :key="index + 1" class="flex">
         <div class="mr-5 font-bold">{{ item.number }}</div>
         <div>{{ item.content }}</div>
       </div>
     </div>
-    <div class="flex flex-col flex-1 space-y-3">
+    <div class="flex flex-col space-y-3 lg:flex-1">
       <div v-for="(item, index) in hint_3" :key="index + 1" class="flex">
         <div class="mr-5 font-bold">{{ item.number }}</div>
         <div>{{ item.content }}</div>

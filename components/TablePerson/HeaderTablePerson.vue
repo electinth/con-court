@@ -8,15 +8,18 @@
       left-[50%]
       bottom-[12px]
       flex
-      h-[61px]
-      border-2 border-absentGray
+      md:h-[61px]
+      h-[25px]
+      border
+      lg:border-2
+      border-absentGray
     "
     style="transform: translateX(-50%)"
   >
     <div
       v-for="item in era_case_list"
       :key="item.name"
-      class="relative flex items-end h-full pb-3"
+      class="relative flex items-end h-full pb-1 md:pb-3"
       :class="{
         'bg-headertable':
           item.name === 'ทักษิณ ชินวัตร' ||
@@ -27,13 +30,25 @@
     >
       <img
         :src="ReturnEraImage(item.name)"
-        class="absolute h-[32px]"
+        class="absolute h-[12px] md:h-[25px] lg:h-[32px]"
         style="top: 0%; transform: translate(-50%, -50%); left: 50%"
       />
       <div
         v-for="c in item.list_case"
         :key="c"
-        class="flex w-[24px] h-[24px] justify-center B_05 font-bold mx-[6px]"
+        class="
+          flex
+          w-[9px]
+          h-[9px]
+          md:w-[19px] md:h-[19px]
+          lg:w-[24px] lg:h-[24px]
+          justify-center
+          B_05
+          font-bold
+          lg:mx-[6px]
+          md:mx-[4px]
+          mx-[1.5px]
+        "
       >
         {{ c }}
       </div>
