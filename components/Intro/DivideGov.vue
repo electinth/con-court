@@ -7,28 +7,39 @@
       id="divide-era"
       class="
         flex
-        max-w-[821px]
+        w-10/12
+        lg:max-w-[821px]
         mx-auto
         mt-8
-        space-x-20
+        lg:space-x-20
         pb-16
         border-b-2 border-b-black
+        flex-col
+        lg:flex-row
       "
     >
       <div id="tony-wrapper">
-        <div class="px-4 py-1 font-bold text-white bg-black B_03">
+        <div class="px-4 py-1 mx-auto font-bold text-white bg-black B_03 w-max">
           {{ tony.title }}
         </div>
-        <div id="list-gov" class="flex flex-col mt-3 ml-5">
+        <div id="list-gov" class="flex flex-col mt-3 lg:ml-5">
           <div
             v-for="(gov, index) in tony.list"
             :key="index"
-            class="flex flex-1 mt-3"
+            class="
+              flex
+              justify-start
+              flex-1
+              mt-3
+              w-[200px]
+              md:w-[290px]
+              mx-auto
+            "
           >
             <img
               :src="gov.img"
               :alt="gov.name"
-              class="max-h-[60px] rotate-[-9deg] mr-3"
+              class="max-h-[40px] md:max-h-[60px] rotate-[-9deg] mr-3"
             />
 
             <div id="inside" class="flex flex-col justify-center">
@@ -38,20 +49,28 @@
           </div>
         </div>
       </div>
-      <div id="soldier-wrapper">
-        <div class="px-4 py-1 font-bold text-white bg-black B_03">
+      <div id="soldier-wrapper" class="mt-8 lg:mt-0">
+        <div class="px-4 py-1 mx-auto font-bold text-white bg-black B_03 w-max">
           {{ soldier.title }}
         </div>
-        <div id="list-gov" class="flex flex-col mt-3 ml-5">
+        <div id="list-gov" class="flex flex-col mt-3 lg:ml-5">
           <div
             v-for="(gov, index) in soldier.list"
             :key="index"
-            class="flex flex-1 mt-3"
+            class="
+              flex
+              justify-start
+              flex-1
+              mt-3
+              w-[200px]
+              md:w-[290px]
+              mx-auto
+            "
           >
             <img
               :src="gov.img"
               :alt="gov.name"
-              class="max-h-[60px] rotate-[-9deg] mr-3"
+              class="max-h-[40px] md:max-h-[60px] rotate-[-9deg] mr-3"
             />
 
             <div id="inside" class="flex flex-col justify-center">

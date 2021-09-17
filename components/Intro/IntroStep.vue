@@ -1,7 +1,19 @@
 <template>
-  <div id="intro-step-wrapper" class="text-center B_03">
+  <div id="intro-step-wrapper" class="relative z-50 text-center B_03">
     <div id="step-1" class="flex items-center h-screen">
-      <div class="h-max max-w-[673px] mx-auto border-2 border-black px-9 py-5">
+      <div
+        class="
+          h-max
+          md:w-[673px]
+          w-10/12
+          mx-auto
+          border-2 border-black
+          md:px-9
+          px-4
+          py-5
+          bg-white
+        "
+      >
         นับตั้งแต่ที่ศาลรัฐธรรมนูญถูกจัดตั้งขึ้นเป็นองค์กรตุลาการตามรัฐธรรมนูญจนถึงปัจจุบัน
         หลากหลายการวินิจฉัยของศาลสร้างผลลัพธ์สำคัญต่อเรื่องการเมืองของประเทศไทยอย่างปฏิเสธไม่ได้
         และในหลายครั้ง
@@ -10,7 +22,19 @@
       </div>
     </div>
     <div id="step-2" class="flex items-center h-screen">
-      <div class="h-max max-w-[673px] mx-auto border-2 border-black px-9 py-9">
+      <div
+        class="
+          h-max
+          md:w-[673px]
+          w-10/12
+          mx-auto
+          border-2 border-black
+          md:px-9
+          px-4
+          py-9
+          bg-white
+        "
+      >
         ELECT
         ขอพาทุกคนดูตัวอย่างคำวินิจฉัยศาลรัฐธรรมนูญที่ก่อให้เกิดผลลัพธ์สำคัญทางการเมือง
         พร้อมกับความสัมพันธ์ต่อเหตุการณ์สำคัญทางการเมืองที่ส่งผลต่อสร้างผลลัพธ์สำคัญทางการเมือง
@@ -20,7 +44,17 @@
     </div>
     <div id="step-3" class="flex items-center h-screen">
       <div
-        class="h-max max-w-[673px] mx-auto border-2 border-black px-16 py-14"
+        class="
+          h-max
+          md:w-[673px]
+          w-10/12
+          mx-auto
+          border-2 border-black
+          md:px-9
+          px-4
+          py-14
+          bg-white
+        "
       >
         จากการวินิจฉัยศาลรัฐธรรมนูญมากกว่า 350 เรื่อง
         นับตั้งแต่ที่ศาลรัฐธรรมนูญถูกจัดตั้งเป็นองค์กรตุลาการตามรัฐธรรมนูญจนถึงปัจจุบัน

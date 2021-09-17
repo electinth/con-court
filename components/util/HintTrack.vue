@@ -6,7 +6,14 @@
       class="flex items-center B_05 mx-2.5"
     >
       <div
-        class="w-[12px] h-[12px] rounded-full border border-black"
+        class="
+          md:w-[12px]
+          w-[9px]
+          h-[9px]
+          md:h-[12px]
+          rounded-full
+          border border-black
+        "
         :class="{
           'bg-positiveGreen': hint.name === 'ผลบวกต่อรัฐบาล',
           'bg-negativeRed': hint.name === 'ผลลบต่อรัฐบาล',

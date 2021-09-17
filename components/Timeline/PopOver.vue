@@ -19,15 +19,22 @@
             class="m-[1px]"
           >
             <div
-              class="w-[11px] h-[11px] rounded-full border border-black"
+              class="
+                w-[8px]
+                h-[8px]
+                md:w-[11px] md:h-[11px]
+                rounded-full
+                border border-black
+              "
               v-if="item"
               :class="item === 1 ? 'bg-positiveGreen' : 'bg-negativeRed'"
             />
             <div
               v-else
               class="
-                w-[11px]
-                h-[11px]
+                w-[8px]
+                h-[8px]
+                md:w-[11px] md:h-[11px]
                 rounded-full
                 border border-absentGray
                 bg-lightGrey

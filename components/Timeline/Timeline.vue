@@ -20,7 +20,7 @@
             v-if="d.role === 'case'"
           />
           <EventLeftWing v-if="d.role === 'event'" />
-          <EraCard :data_list="d" :index="index" class="px-[50px]" />
+          <EraCard :data_list="d" :index="index" class="md:px-[50px]" />
           <EventRightWing v-if="d.role === 'event'" />
           <JudgeGrid
             side_case="2"
@@ -66,14 +66,10 @@ export default {
   mounted() {
     this.data = CombileData(data_case, data_event)
     this.data = SortByDate(this.data)
-    // console.log(this.index)
-    // console.log('this.data => ', this.data)
   },
   methods: {
     stepEnterHandler({ element, index, direction }) {
       this.current_step = index
-      //   console.log({ element, index, direction })
-      //   console.log(element.dataset.step)
     },
   },
 }

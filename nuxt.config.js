@@ -47,10 +47,19 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-  ],
+  modules: ['nuxt-mq'],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
+  mq: {
+    defaultBreakpoint: 'desktop',
+    breakpoints: {
+      mobile: 767,
+      tablet: 1023,
+      desktop: 1400,
+      desktopWide: 2000,
+      desktopUltraWide: Infinity,
+    },
+  },
 }

@@ -3,8 +3,9 @@
     <div
       id="card"
       class="
-        w-[300px]
-        h-[360px]
+        w-[160px]
+        h-[229px]
+        md:w-[300px] md:h-[360px]
         mx-auto
         border border-black
         mt-6
@@ -17,7 +18,7 @@
         v-if="data_list.role === 'event'"
       />
       <div
-        class="h-[28px] border-b border-b-black"
+        class="h-[14px] md:h-[28px] border-b border-b-black"
         id="case-tab-color"
         v-if="data_list.role === 'case'"
         :class="
@@ -31,12 +32,12 @@
             ? 'bg-black text-white'
             : 'bg-white text-black'
         "
-        class="px-4 py-1 mx-auto mt-4 w-max B_04"
+        class="px-4 py-1 mx-auto mt-3 md:mt-4 w-max B_04"
       >
         {{ date }}
       </p>
       <p
-        class="px-4 mt-3 font-bold text-center B_03"
+        class="px-2 mt-2 font-bold text-center md:px-4 md:mt-3 B_03"
         id="name"
         :class="data_list.role === 'case' ? 'text-black' : 'text-white'"
       >

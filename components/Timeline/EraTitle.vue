@@ -1,16 +1,17 @@
 <template>
   <div
     id="era-wrapper"
-    class="sticky top-0 pt-24 mx-auto w-[708px] z-10 mb-[50%]"
+    class="sticky top-0 pt-24 mx-auto w-max md:w-[708px] z-10 mb-[50%]"
   >
-    <div class="relative flex justify-center px-1 text-white bg-black H_05">
+    <div
+      class="relative flex justify-center px-3 py-1 text-white bg-black  md:px-1 md:py-0 H_05"
+    >
       <div id="img_era">
         <img
           :src="era_img"
-          width="70px"
-          class="absolute top-[50%] translate-y-[-50%]"
+          class="absolute top-[50%] translate-y-[-50%] md:w-[70px] w-[35px]"
         />
-        <div class="w-[70px]" />
+        <div class="w-[35px] md:w-[70px]" />
       </div>
       <p class="relative top-1" v-html="era_title"></p>
     </div>

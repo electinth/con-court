@@ -1,8 +1,8 @@
 <template>
   <div id="container">
-    <!-- <Intro /> -->
+    <Intro />
     <Timeline />
-    <!-- <TablePerson /> -->
+    <TablePerson />
   </div>
 </template>
 

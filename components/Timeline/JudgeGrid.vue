@@ -1,20 +1,33 @@
 <template>
   <div
     id="judge-grid-wrapper"
-    class="grid grid-cols-3 grid-rows-3 w-[240px] my-auto gap-4"
+    class="
+      grid grid-cols-1
+      lg:grid-cols-3 lg:grid-rows-3
+      w-[240px]
+      lg:my-auto lg:gap-4
+      mb-auto
+      gap-2
+    "
   >
     <div
       v-for="j in jusdge_list"
       :key="j.number_person"
       class="self-center justify-self-center"
     >
-      <el-popover placement="bottom" width="227" trigger="click">
+      <el-popover
+        placement="bottom"
+        :width="$mq === 'mobile' ? 150 : 227"
+        trigger="click"
+      >
         <PopOver :person="j" :case_list_formated="PersonCase(j)" />
         <img
           slot="reference"
           class="
-            w-[70px]
-            h-[70px]
+            w-[30px]
+            h-[30px]
+            md:w-[60px] md:h-[60px]
+            lg:w-[70px] lg:h-[70px]
             rounded-full
             border-black border
             cursor-pointer

@@ -21,7 +21,20 @@
   font-weight: 900;
   font-style: normal;
 }
-
+@font-face {
+  font-family: 'KondolarThai';
+  src: url('../fonts/KondolarThai-Regular.woff');
+  font-weight: 400;
+  font-style: normal;
+}
+.H_title {
+  font-size: 106px;
+  font-weight: 400;
+  font-family: 'KondolarThai';
+  @media screen and (max-width: 767px) {
+    font-size: 45px;
+  }
+}
 .H_01 {
   font-size: 90px;
   font-weight: 900;
@@ -83,6 +96,9 @@
   @media screen and (max-width: 767px) {
     font-size: 13.5px;
   }
+  @media screen and (max-width: 569px) {
+    font-size: 12px;
+  }
 }
 .B_04 {
   font-size: 19px;
@@ -96,6 +112,9 @@
   font-family: 'Anuphan';
   @media screen and (max-width: 767px) {
     font-size: 11px;
+  }
+  @media screen and (max-width: 569px) {
+    font-size: 9px;
   }
 }
 .B_06 {
