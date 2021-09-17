@@ -3,6 +3,7 @@
     <Intro />
     <Timeline />
     <TablePerson />
+    <!-- <Summary /> -->
   </div>
 </template>
 
