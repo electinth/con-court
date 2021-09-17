@@ -38,7 +38,13 @@
     </div>
     <div
       id="hint-track"
-      class="flex justify-center border border-t-0 border-black px-[6px]"
+      class="
+        flex
+        justify-center
+        border border-t-0 border-black
+        px-[6px]
+        py-[2px]
+      "
     >
       <HintTrack />
     </div>

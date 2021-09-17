@@ -1,35 +1,62 @@
 <template>
-  <div id="timeline-wrapper" v-if="data.length" class="relative h-full">
-    <div class="absolute w-full h-full pointer-events-none" id="sticky-wrapper">
-      <EraTitle :data="data[current_step]" />
-      <EraFooterTack :data="data" :current_step="current_step" />
-    </div>
-    <Scrollama @step-enter="stepEnterHandler">
+  <div id="timeline-wrapper" v-if="data.length">
+    <div class="relative h-full" id="main-timeline">
       <div
-        v-for="(d, index) in data"
-        :key="index"
-        :class="index"
-        class="flex flex-col items-center justify-center h-screen"
-        :data-step="index"
+        class="absolute w-full h-full pointer-events-none"
+        id="sticky-wrapper"
       >
-        <EraYear :date="d.date" />
-        <div class="container flex justify-center w-full">
-          <JudgeGrid
-            side_case="1"
-            :number_case="d.number_case"
-            v-if="d.role === 'case'"
-          />
-          <EventLeftWing v-if="d.role === 'event'" />
-          <EraCard :data_list="d" :index="index" class="md:px-[50px]" />
-          <EventRightWing v-if="d.role === 'event'" />
-          <JudgeGrid
-            side_case="2"
-            :number_case="d.number_case"
-            v-if="d.role === 'case'"
-          />
-        </div>
+        <EraTitle :data="data[current_step]" />
+        <EraFooterTack :data="data" :current_step="current_step" />
       </div>
-    </Scrollama>
+      <Scrollama @step-enter="stepEnterHandler">
+        <div
+          v-for="(d, index) in data"
+          :key="index"
+          :class="index"
+          class="flex flex-col items-center justify-center h-screen"
+          :data-step="index"
+        >
+          <EraYear :date="d.date" />
+          <div class="container flex justify-center w-full">
+            <JudgeGrid
+              side_case="1"
+              :number_case="d.number_case"
+              v-if="d.role === 'case'"
+            />
+            <EventLeftWing v-if="d.role === 'event'" />
+            <EraCard :data_list="d" :index="index" class="md:px-[50px]" />
+            <EventRightWing v-if="d.role === 'event'" />
+            <JudgeGrid
+              side_case="2"
+              :number_case="d.number_case"
+              v-if="d.role === 'case'"
+            />
+          </div>
+        </div>
+      </Scrollama>
+    </div>
+    <div class="flex items-center h-screen" id="intro">
+      <div
+        class="
+          w-[244px]
+          md:w-[403px]
+          border
+          md:border-2
+          border-black
+          mx-auto
+          B_03
+          text-center
+          px-5
+          py-9
+        "
+      >
+        หลังจากที่ได้เห็นรายละเอียดตัวอย่างการวินิจฉัย
+        และเหตุการณ์สำคัญที่เกี่ยวข้องกับการสร้างผลลัพธ์สำคัญทางการเมืองของศาลรัฐธรรมนูญกันไปแล้ว
+        เราขอพาดูผลงานส่วนตัวของตุลาการศาลรัฐธรรมนูญแต่ละคน ในแต่ละชุด
+        ว่าพวกเขาลงมติอย่างไรบ้างในการวินิจฉัยที่สร้างผลลัพธ์สำคัญทางการเมือง
+        และพวกเขาเหล่านั้นมาดำรงตำแหน่งตุลาการรัฐธรรมนูญได้อย่างไร
+      </div>
+    </div>
   </div>
 </template>
 
