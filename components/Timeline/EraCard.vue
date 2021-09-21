@@ -12,6 +12,7 @@
         relative
         overflow-hidden
       "
+      :class="{ 'bg-white': data_list.role === 'case' }"
     >
       <EventImageBG
         :index_image="data_list.number_event"

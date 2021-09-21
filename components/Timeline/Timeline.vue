@@ -2,7 +2,7 @@
   <div id="timeline" v-if="data.length" class="mt-3">
     <div class="relative h-full" id="main-timeline">
       <div
-        class="absolute w-full h-full pointer-events-none"
+        class="absolute z-50 w-full h-full pointer-events-none"
         id="sticky-wrapper"
       >
         <EraTitle :data="data[current_step]" />
@@ -24,7 +24,11 @@
               v-if="d.role === 'case'"
             />
             <EventLeftWing v-if="d.role === 'event'" />
-            <EraCard :data_list="d" :index="index" class="md:px-[50px]" />
+            <EraCard
+              :data_list="d"
+              :index="index"
+              class="md:px-[50px] relative z-40"
+            />
             <EventRightWing v-if="d.role === 'event'" />
             <JudgeGrid
               side_case="2"
@@ -48,6 +52,9 @@
           text-center
           px-5
           py-9
+          relative
+          z-40
+          bg-white
         "
       >
         หลังจากที่ได้เห็นรายละเอียดตัวอย่างการวินิจฉัย

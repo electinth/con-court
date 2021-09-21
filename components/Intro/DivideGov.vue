@@ -1,5 +1,5 @@
 <template>
-  <div id="divide-gov-wrapper">
+  <div id="divide-gov-wrapper" class="relative z-40 bg-white">
     <p class="font-bold text-center B_02" id="title">
       โดยเราจะแบ่งรัฐบาลออกเป็น 2 กลุ่มหลัก
     </p>

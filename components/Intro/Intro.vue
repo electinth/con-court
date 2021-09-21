@@ -53,11 +53,11 @@
         class="
           absolute
           top-0
-          z-20
+          z-40
           w-[200px]
           md:w-[500px] md:top-[12%]
           top-[14%]
-          left-[48%]
+          left-[50%]
         "
         style="transform: translateX(-50%)"
       />
@@ -77,12 +77,24 @@
       <IntroStep />
     </div>
     <DivideGov />
-    <div class="w-10/12 lg:max-w-[815px] mx-auto text-center B_03 mt-16">
+    <div
+      class="
+        w-10/12
+        lg:max-w-[815px]
+        mx-auto
+        text-center
+        B_03
+        pt-16
+        relative
+        z-40
+        bg-white
+      "
+    >
       นอกจากนี้ เราขอกล่าวถึงตัวอย่าง "6 เหตุการณ์สำคัญ" ในช่วงเวลาดังกล่าว
       ที่ส่งผลต่อการทำงานของศาลรัฐธรรมนูญ ในการสร้างผลลัพธ์สำคัญทางการเมือง
       เพื่อแสดงให้เห็นถึงความสัมพันธ์ของเหตุการณ์กับการทำงานของศาลรัฐธรรมนูญในเรื่องนี้
     </div>
-    <div class="mx-auto mt-20 md:mt-24 w-max">
+    <div class="relative z-40 pt-20 pb-2 mx-auto bg-white md:pt-24 w-max">
       <a
         href="#timeline"
         id="start"
