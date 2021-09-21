@@ -82,11 +82,14 @@
       ที่ส่งผลต่อการทำงานของศาลรัฐธรรมนูญ ในการสร้างผลลัพธ์สำคัญทางการเมือง
       เพื่อแสดงให้เห็นถึงความสัมพันธ์ของเหตุการณ์กับการทำงานของศาลรัฐธรรมนูญในเรื่องนี้
     </div>
-    <div
-      id="start"
-      class="px-8 py-1 mx-auto mt-20 font-bold border border-black  md:border-2 H_05 w-max md:mt-28"
-    >
-      <div class="relative top-1">เริ่ม!</div>
+    <div class="mx-auto mt-20 md:mt-24 w-max">
+      <a
+        href="#timeline"
+        id="start"
+        class="relative px-8 py-1 mx-auto font-bold border border-black  md:border-2 H_05 w-max"
+      >
+        เริ่ม!
+      </a>
     </div>
   </div>
 </template>

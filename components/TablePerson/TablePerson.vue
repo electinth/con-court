@@ -1,5 +1,5 @@
 <template>
-  <div id="table-person-wrapper">
+  <div id="summary">
     <div class="relative">
       <div
         id="top-table"

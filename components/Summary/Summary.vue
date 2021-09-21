@@ -1,7 +1,7 @@
 <template>
   <div
     id="summary-wrapper"
-    class="container flex flex-col items-center mx-auto"
+    class="container flex flex-col items-center mx-auto mb-36"
   >
     <div class="w-11/12 lg:max-w-[745px] mx-auto mt-36 B_03 text-center">
       จากรายละเอียดของงานแสดงให้เห็นว่า
@@ -59,11 +59,17 @@
       ซึ่งความเชื่อมโยงที่มาจากเหตุการณ์สำคัญทางเมือง
       ก็ส่งผลต่อการทำงานของศาลรัฐธรรมนูญและตุลาการรัฐธรรมนูญด้วยเช่นกัน
     </div>
+    <Sharer />
   </div>
 </template>
 
 <script>
-export default {}
+import Sharer from '../util/Sharer.vue'
+export default {
+  components: {
+    Sharer,
+  },
+}
 </script>
 
 <style lang="scss">

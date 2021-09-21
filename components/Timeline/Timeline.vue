@@ -1,5 +1,5 @@
 <template>
-  <div id="timeline-wrapper" v-if="data.length">
+  <div id="timeline" v-if="data.length" class="mt-3">
     <div class="relative h-full" id="main-timeline">
       <div
         class="absolute w-full h-full pointer-events-none"

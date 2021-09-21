@@ -1,7 +1,7 @@
 <template>
   <div
     id="era-wrapper"
-    class="sticky top-0 pt-10 md:pt-24 mx-auto w-max md:w-[708px] z-10 mb-[50%]"
+    class="sticky top-0 pt-10 md:pt-24 mx-auto w-max md:w-[708px] z-10 mb-[20%]"
   >
     <div
       class="relative flex justify-center px-3 py-1 text-white bg-black  md:px-1 md:py-0 H_05"

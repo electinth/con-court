@@ -10,7 +10,8 @@
       bg-tableHead
       z-20
       border border-black
-      top-0
+      top-[133px]
+      md:top-[241px]
       B_05
       py-7
       px-12
