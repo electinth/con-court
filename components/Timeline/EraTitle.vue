@@ -1,7 +1,7 @@
 <template>
   <div
     id="era-wrapper"
-    class="sticky top-0 pt-10 md:pt-24 mx-auto w-max md:w-[708px] z-10 mb-[20%]"
+    class="sticky top-0 pt-14 md:pt-24 mx-auto w-max md:w-[708px] z-10 mb-[20%]"
   >
     <div
       class="relative flex justify-center px-3 py-1 text-white bg-black  md:px-1 md:py-0 H_05"
@@ -13,7 +13,11 @@
         />
         <div class="w-[35px] md:w-[70px]" />
       </div>
-      <p class="relative top-1" v-html="era_title"></p>
+      <p
+        class="relative delay-300 top-1"
+        v-html="era_title"
+        id="this_is_title"
+      ></p>
     </div>
   </div>
 </template>

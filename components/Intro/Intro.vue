@@ -56,7 +56,7 @@
           z-40
           w-[200px]
           md:w-[500px] md:top-[12%]
-          top-[14%]
+          top-[13%]
           left-[50%]
         "
         style="transform: translateX(-50%)"

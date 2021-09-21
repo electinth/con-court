@@ -3,7 +3,7 @@
     <elect-navbar
       title-text="Constitutional Court"
       dark="false"
-      class="absolute z-[30] w-full"
+      class="fixed lg:absolute z-[99] w-full"
     >
       <div class="flex items-center space-x-5 text-white B_06">
         <a href="#timeline">Timeline</a>
@@ -50,6 +50,10 @@
   </div>
 </template>
 
-<script>
-export default {}
-</script>
+<style lang="scss">
+.box-shadow-style {
+  box-shadow: 0px 16px 5px 1px rgba(0, 0, 0, 0.44);
+  -webkit-box-shadow: 0px 16px 5px 1px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: 0px 16px 5px 1px rgba(0, 0, 0, 0.44);
+}
+</style>
