@@ -25,6 +25,7 @@ export default {
       },
       { rel: 'stylesheet', href: 'https://elect.in.th/assets/typography.css' },
     ],
+
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -37,7 +38,8 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     '@/plugins/element-ui',
-    '@/plugins/elect.client.js'
+    '@/plugins/elect.client.js',
+    '@/plugins/smoothscroll.js'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

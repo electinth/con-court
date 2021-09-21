@@ -2,16 +2,16 @@
   <div
     id="hide-more-case-wrapper"
     class="
-      lg:sticky
+      pt-16
+      lg:pt-7
       fixed
       lg:w-[80%]
       w-screen
-      h-full
       bg-tableHead
       z-20
       border border-black
-      top-[133px]
-      md:top-[241px]
+      top-[50%]
+      translate-y-[-50%]
       B_05
       py-7
       px-12
@@ -21,9 +21,14 @@
       hidden
       overflow-y-auto
       lg:overflow-y-visible
-      mx-auto
       z-[60]
+      left-[50%]
+      translate-x-[-50%]
     "
+    :class="{
+      'h-full': $mq === 'mobile' || $mq === 'tablet',
+      'h-max': $mq != 'mobile' || $mq != 'tablet',
+    }"
   >
     <img
       :src="require('assets/images/close.svg')"

@@ -28,7 +28,7 @@
     </div>
     <div
       id="content-body"
-      v-html="data.description"
+      v-html="data.description_formated"
       class="p-5 overflow-y-auto B_05"
     />
   </div>

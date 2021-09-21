@@ -49,8 +49,10 @@
     <elect-footer />
   </div>
 </template>
-
 <style lang="scss">
+html {
+  scroll-behavior: smooth;
+}
 .box-shadow-style {
   box-shadow: 0px 16px 5px 1px rgba(0, 0, 0, 0.44);
   -webkit-box-shadow: 0px 16px 5px 1px rgba(0, 0, 0, 0.44);
