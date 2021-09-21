@@ -20,6 +20,8 @@
       hidden
       overflow-y-auto
       lg:overflow-y-visible
+      mx-auto
+      z-[60]
     "
   >
     <img

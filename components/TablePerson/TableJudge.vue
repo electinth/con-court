@@ -1,6 +1,5 @@
 <template>
   <div id="table-judge-wrapper" class="relative flex flex-col items-center">
-    <HideMoreCase />
     <div
       v-for="judge in judge_data"
       :key="judge.number_person"
@@ -98,11 +97,10 @@
 import Judge from 'static/contents/ตุลาการ.json'
 import FormatPersonCase from '../util/FormatPersonCase'
 import PopOver from '../Timeline/PopOver.vue'
-import HideMoreCase from './HideMoreCase.vue'
+
 export default {
   components: {
     PopOver,
-    HideMoreCase,
   },
   data() {
     return {
