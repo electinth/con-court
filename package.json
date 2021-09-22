@@ -16,7 +16,8 @@
     "nuxt": "^2.15.7",
     "nuxt-mq": "^2.0.2",
     "smoothscroll-polyfill": "^0.4.4",
-    "vue-scrollama": "^2.0.6"
+    "vue-scrollama": "^2.0.6",
+    "vue-sharer": "^1.0.0"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^4.2.1",

@@ -1,3 +1,5 @@
+// const BASE_URL = 'https://elect.in.th/con-court/'
+const BASE_URL = 'https://electinth.github.io/con-court/'
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -7,15 +9,66 @@ export default {
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'con-court',
-    htmlAttrs: {
-      lang: 'en'
-    },
+    title: 'ศาลรัฐธรรมนูญกับการเมือง',
+
     meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { charset: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      {
+        hid: "description",
+        name: "description",
+        content: "หลากหลายการวินิจฉัยของศาลรัฐธรรมนูญสร้างผลลัพธ์สำคัญต่อการเมืองไทย",
+      },
+      {
+        hid: "og:title",
+        property: "og:title",
+        content: "ศาลรัฐธรรมนูญกับการเมือง",
+      },
+      {
+        hid: "og:description",
+        property: "og:description",
+        content: "หลากหลายการวินิจฉัยของศาลรัฐธรรมนูญสร้างผลลัพธ์สำคัญต่อการเมืองไทย",
+      },
+      {
+        hid: "og:type",
+        property: "og:type",
+        content: "website",
+      },
+      {
+        hid: "og:image",
+        property: "og:image",
+        content: BASE_URL + "og_image.jpg",
+      },
+      {
+        hid: "og:url",
+        property: "og:url",
+        content: BASE_URL,
+      },
+      {
+        hid: "twitter:title",
+        name: "twitter:title",
+        content: "ศาลรัฐธรรมนูญกับการเมือง",
+      },
+      {
+        hid: "twitter:description",
+        name: "twitter:description",
+        content: "หลากหลายการวินิจฉัยของศาลรัฐธรรมนูญสร้างผลลัพธ์สำคัญต่อการเมืองไทย",
+      },
+      {
+        hid: "twitter:card",
+        name: "twitter:card",
+        content: "summary_large_image",
+      },
+      {
+        hid: "twitter:image",
+        name: "twitter:image:src",
+        content: BASE_URL + "og_image.jpg",
+      },
+      {
+        hid: "twitter:url",
+        property: "twitter:url",
+        content: BASE_URL,
+      },
     ],
     link: [
       {
