@@ -26,6 +26,7 @@
       :data-url="BASE_URL"
       v-sharer
     />
+    <script src="https://cdn.jsdelivr.net/npm/sharer.js@latest/sharer.min.js" />
   </div>
 </template>
 
