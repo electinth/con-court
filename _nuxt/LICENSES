@@ -23,6 +23,30 @@
  */
 
 
+/**
+ * @preserve
+ * Sharer.js
+ *
+ * @description Create your own social share buttons
+ * @version 0.2.12
+ * @author Ellison Leao <ellisonleao@gmail.com>
+ * @license GPLv3
+ *
+ */
+
+
+/**
+ * @preserve
+ * Sharer.js
+ *
+ * @description Create your own social share buttons
+ * @version 0.2.12
+ * @author Ellison Leao <ellisonleao@gmail.com>
+ * @license GPLv3
+ *
+ */
+
+
 /*!
  * vue-client-only v0.0.0-semantic-release
  * (c) 2021-present egoist <0x142857@gmail.com>
@@ -48,28 +72,4 @@
  * @return {boolean} True if the event is supported.
  * @internal
  * @license Modernizr 3.0.0pre (Custom Build) | MIT
- */
-
-
-/**
- * @preserve
- * Sharer.js
- *
- * @description Create your own social share buttons
- * @version 0.2.12
- * @author Ellison Leao <ellisonleao@gmail.com>
- * @license GPLv3
- *
- */
-
-
-/**
- * @preserve
- * Sharer.js
- *
- * @description Create your own social share buttons
- * @version 0.2.12
- * @author Ellison Leao <ellisonleao@gmail.com>
- * @license GPLv3
- *
  */
