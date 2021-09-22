@@ -6,8 +6,8 @@
       class="fixed lg:absolute z-[99] w-full"
     >
       <div class="flex items-center space-x-5 text-white B_06">
-        <a href="#timeline">Timeline</a>
-        <a href="#summary">Summary</a>
+        <div @click="ScrollToTimeLine" class="cursor-pointer">Timeline</div>
+        <div @click="ScrollToSummary" class="cursor-pointer">Summary</div>
         <NuxtLink to="/about"> About </NuxtLink>
       </div>
     </elect-navbar>
@@ -59,3 +59,16 @@ html {
   -moz-box-shadow: 0px 16px 5px 1px rgba(0, 0, 0, 0.44);
 }
 </style>
+
+<script>
+export default {
+  methods: {
+    ScrollToTimeLine() {
+      document.querySelector('#timeline').scrollIntoView({ behavior: 'smooth' })
+    },
+    ScrollToSummary() {
+      document.querySelector('#summary').scrollIntoView({ behavior: 'smooth' })
+    },
+  },
+}
+</script>

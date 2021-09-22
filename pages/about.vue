@@ -19,12 +19,16 @@ export default {
   methods: {
     Timeline() {
       setTimeout(() => {
-        document.getElementById('timeline').scrollIntoView()
+        document
+          .getElementById('timeline')
+          .scrollIntoView({ behavior: 'smooth' })
       }, 300)
     },
     Summary() {
       setTimeout(() => {
-        document.getElementById('summary').scrollIntoView()
+        document
+          .getElementById('summary')
+          .scrollIntoView({ behavior: 'smooth' })
       }, 300)
     },
   },

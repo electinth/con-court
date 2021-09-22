@@ -95,13 +95,13 @@
       เพื่อแสดงให้เห็นถึงความสัมพันธ์ของเหตุการณ์กับการทำงานของศาลรัฐธรรมนูญในเรื่องนี้
     </div>
     <div class="relative z-40 pt-20 pb-2 mx-auto bg-white md:pt-24 w-max">
-      <a
-        href="#timeline"
+      <div
+        @click="ScrollToTimeLine"
         id="start"
-        class="relative px-8 py-1 mx-auto font-bold border border-black  md:border-2 H_05 w-max"
+        class="relative px-8 py-1 mx-auto font-bold border border-black cursor-pointer  md:border-2 H_05 w-max"
       >
         เริ่ม!
-      </a>
+      </div>
     </div>
   </div>
 </template>
@@ -113,6 +113,11 @@ export default {
   components: {
     IntroStep,
     DivideGov,
+  },
+  methods: {
+    ScrollToTimeLine() {
+      document.querySelector('#timeline').scrollIntoView({ behavior: 'smooth' })
+    },
   },
 }
 </script>
