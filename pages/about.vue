@@ -118,13 +118,18 @@
         </p>
       </div>
     </div>
-    <div
+    <a
+      href="https://docs.google.com/spreadsheets/d/1HjASiOaEyTt--Yz3bj0sEuCOw6C_Kx76kO8Myvm_lYA/edit?pli=1#gid=0"
+      target="_blank"
       id="download_data"
       class="flex items-center px-6 py-2 mx-auto mt-20 border-2 border-black cursor-pointer  w-max"
     >
-      <img :src="require(`assets/images/icon_download.svg`)" class="mr-5" />
-      <p class="H_05">ดาวน์โหลดข้อมูล</p>
-    </div>
+      <img
+        :src="require(`assets/images/icon_download.svg`)"
+        class="mr-5 pointer-events-none"
+      />
+      <p class="pointer-events-none H_05">ดาวน์โหลดข้อมูล</p>
+    </a>
     <div class="flex items-center justify-center mt-24 mb-32 h-max">
       <div class="mr-[10px] B_05">share</div>
       <Sharer />
@@ -139,6 +144,7 @@ export default {
   components: {
     Sharer,
   },
+
   methods: {
     Timeline() {
       setTimeout(() => {
