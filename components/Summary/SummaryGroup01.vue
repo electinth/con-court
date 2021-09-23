@@ -1,5 +1,5 @@
 <template>
-  <div id="summary-wrapper" class="w-10/12 mx-auto md:max-w-[450px]">
+  <div id="summary-group1-wrapper" class="w-10/12 mx-auto md:max-w-[450px]">
     <div
       id="wrapper"
       class="px-5 py-5 text-center border border-black B_04 bg-tableHead"

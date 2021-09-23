@@ -1,8 +1,5 @@
 <template>
-  <div
-    id="summary-wrapper"
-    class="container flex flex-col items-center mx-auto mb-36"
-  >
+  <div id="summary" class="container flex flex-col items-center mx-auto mb-36">
     <div class="w-11/12 lg:max-w-[745px] mx-auto mt-36 B_03 text-center">
       จากรายละเอียดของงานแสดงให้เห็นว่า
       มีการวินิจฉัยของศาลรัฐธรรมนูญหลายครั้งที่สร้างผลลัพธ์สำคัญทางการเมือง
