@@ -1,17 +1,14 @@
 <template>
-  <div id="summaey-wrapper" class="w-10/12 mx-auto md:max-w-[390px] mt-24">
+  <div id="summaey-wrapper" class="w-10/12 mx-auto md:max-w-[450px] mt-24">
     <div
       id="wrapper"
-      class="px-6 py-5 text-center border border-black B_04 bg-tableHead"
+      class="px-5 py-5 text-center border border-black B_04 bg-tableHead"
     >
       <div class="font-bold">
         2. กลุ่มตุลาการรัฐธรรมนูญ<br />
-        "โปรฝั่งการเมืองสายอำนาจเก่า และทหาร"
+        "โหวตดีต่อรัฐบาลสายอำนาจเก่า และทหาร 100%"
       </div>
-      <div>
-        ลงมติเป็นผลบวกฝั่งการเมือง สายอำนาจเก่า และทหาร ที่มีอำนาจในช่วงนั้น
-        โดยสามารถแบ่งได้เป็น 3 ประเภทย่อย
-      </div>
+      <div>โดยสามารถแบ่งได้เป็น 3 ประเภทย่อย ได้แก่</div>
     </div>
     <div id="group-data">
       <div v-for="(d, index) in group_data" :key="index">

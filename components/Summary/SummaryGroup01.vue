@@ -1,15 +1,14 @@
 <template>
-  <div id="summary-wrapper" class="w-10/12 mx-auto md:max-w-[390px]">
+  <div id="summary-wrapper" class="w-10/12 mx-auto md:max-w-[450px]">
     <div
       id="wrapper"
-      class="py-5 text-center border border-black B_04 bg-tableHead px-9"
+      class="px-5 py-5 text-center border border-black B_04 bg-tableHead"
     >
       <div class="font-bold">
-        1.กลุ่มตุลาการรัฐธรรมนูญ <br />"โปรฝั่งการเมืองสายทักษิณ ชินวัตร"
+        1. กลุ่มตุลาการรัฐธรรมนูญ <br />"โหวตดีต่อรัฐบาลสายทักษิณ ชินวัตร 100%"
       </div>
       <div>
-        เป็นกลุ่มที่ลงมติเป็นผลบวกกับฝั่งการเมือง สายทักษิณ ชินวัตร
-        ที่มีอำนาจในช่วงนั้น
+        โดยลงมติเป็นผลบวกกับฝั่งการเมือง สายทักษิณ ชินวัตร ที่มีอำนาจในช่วงนั้น
       </div>
     </div>
     <div id="group-img" class="flex flex-wrap justify-center mt-7">

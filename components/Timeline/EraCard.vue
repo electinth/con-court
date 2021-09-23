@@ -41,9 +41,8 @@
         class="px-2 mt-2 font-bold text-center md:px-4 md:mt-3 B_03"
         id="name"
         :class="data_list.role === 'case' ? 'text-black' : 'text-white'"
-      >
-        {{ data_list.name }}
-      </p>
+        v-html="data_list.name"
+      ></p>
       <SeeMore :index="index" :data="data_list" />
     </div>
   </div>
