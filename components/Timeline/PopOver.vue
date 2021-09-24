@@ -3,7 +3,9 @@
     <p class="font-bold B_05" id="name">
       {{ person.name_surname_person }}
     </p>
-    <p id="position" class="B_05">ที่มา {{ person.position_person }}</p>
+    <p id="position" class="B_05">
+      ที่มา <span v-html="person.position_person" />
+    </p>
     <div id="person-case-wrapper" class="grid grid-cols-2 mt-2">
       <div
         v-for="c in case_list_formated"

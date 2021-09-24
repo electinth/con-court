@@ -5,7 +5,11 @@
       :key="judge.number_person"
       class="relative border-l-2 border-r-2  w-max border-l-tableGray border-r-tableGray"
     >
-      <el-popover placement="bottom" width="227" trigger="click">
+      <el-popover
+        placement="bottom"
+        :width="$mq === 'mobile' ? 150 : 240"
+        trigger="click"
+      >
         <PopOver :person="judge" :case_list_formated="PersonCase(judge)" />
         <img
           slot="reference"
