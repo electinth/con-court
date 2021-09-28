@@ -3,8 +3,8 @@
     <div
       id="card"
       class="
-        w-[160px]
-        h-[229px]
+        w-[190px]
+        h-[270px]
         md:w-[300px] md:h-[360px]
         mx-auto
         border border-black

@@ -1,6 +1,6 @@
 <template>
   <div id="intro-step-wrapper" class="relative z-50 text-center B_03">
-    <div id="step-1" class="flex items-center h-screen">
+    <div id="step-1" class="flex items-center my-[100px] md:h-screen md:my-0">
       <div
         class="
           h-max
@@ -22,7 +22,7 @@
         โดยสามารถสร้างแนวโน้มของผลลัพธ์บางอย่างที่น่าสนใจ
       </div>
     </div>
-    <div id="step-2" class="flex items-center h-screen">
+    <div id="step-2" class="flex items-center my-[100px] md:h-screen md:my-0">
       <div
         class="
           h-max
@@ -44,7 +44,7 @@
         ว่าลงมติที่สร้างผลลัพธ์สำคัญทางการเมืองอย่างไรกันบ้าง
       </div>
     </div>
-    <div id="step-3" class="flex items-center h-screen">
+    <div id="step-3" class="flex items-center my-[100px] md:my-0 md:h-screen">
       <div
         class="
           h-max

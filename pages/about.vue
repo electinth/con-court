@@ -3,9 +3,9 @@
     <elect-navbar
       title-text="Constitutional Court"
       dark="false"
-      class="absolute z-[99] w-full"
+      class="absolute z-[99] w-screen"
     >
-      <div class="flex items-center space-x-5 text-white B_06">
+      <div class="flex items-center space-x-5 text-white B_05">
         <NuxtLink to="/" @click.native="Timeline">Timeline</NuxtLink>
         <NuxtLink to="/" @click.native="Summary">Summary</NuxtLink>
         <NuxtLink to="/about"> About </NuxtLink>
@@ -164,4 +164,8 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss">
+elect-navbar {
+  width: 100vw;
+}
+</style>

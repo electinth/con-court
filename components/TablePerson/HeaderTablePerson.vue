@@ -8,11 +8,14 @@
       left-[50%]
       bottom-[12px]
       flex
-      md:h-[61px]
+      lg:h-[61px]
+      md:h-[45px]
       h-[25px]
       border
       lg:border-2
       border-absentGray
+      ml-[7.5px]
+      md:ml-0
     "
     style="transform: translateX(-50%)"
   >
@@ -43,7 +46,7 @@
           md:w-[19px] md:h-[19px]
           lg:w-[24px] lg:h-[24px]
           justify-center
-          B_05
+          header_table
           font-bold
           lg:mx-[6px]
           md:mx-[4px]

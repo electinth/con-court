@@ -3,7 +3,14 @@
     <div
       v-for="judge in judge_data"
       :key="judge.number_person"
-      class="relative border-l-2 border-r-2  w-max border-l-tableGray border-r-tableGray"
+      class="
+        relative
+        border-l-2 border-r-2
+        w-max
+        border-l-tableGray border-r-tableGray
+        ml-[15px]
+        md:ml-0
+      "
     >
       <el-popover
         placement="bottom"

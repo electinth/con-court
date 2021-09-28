@@ -3,8 +3,8 @@
     <img
       :src="require(`assets/images/facebook.png`)"
       class="
-        w-[25px]
-        h-[25px]
+        w-[30px]
+        h-[30px]
         md:w-[39px] md:h-[39px]
         lg:h-[50px] lg:w-[50px]
         cursor-pointer
@@ -16,8 +16,8 @@
     <img
       :src="require(`assets/images/twitter.png`)"
       class="
-        w-[25px]
-        h-[25px]
+        w-[30px]
+        h-[30px]
         md:w-[39px] md:h-[39px]
         lg:h-[50px] lg:w-[50px]
         cursor-pointer

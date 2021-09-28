@@ -5,10 +5,12 @@
         id="top-table"
         class="
           h-[133px]
-          md:h-[241px]
+          md:h-[220px]
           bg-tableHead
           flex flex-col
+          lg:pt-16
           justify-center
+          lg:justify-start
           sticky
           top-0
           z-50

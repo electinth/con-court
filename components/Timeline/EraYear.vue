@@ -1,7 +1,7 @@
 <template>
   <div
     id="era-year-wrapper"
-    class="px-6 py-1 mx-auto font-bold text-center text-white bg-black  H_05 w-max"
+    class="relative z-40 px-6 py-1 mx-auto font-bold text-center text-white bg-black  H_05 w-max"
   >
     {{ date.slice(date.length - 4) }}
   </div>

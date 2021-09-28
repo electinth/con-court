@@ -12,7 +12,7 @@
       flex
       items-center
       justify-center
-      left-[105%]
+      left-[103%]
       top-[50%]
       translate-y-[-50%]
       cursor-pointer
@@ -25,7 +25,7 @@
       :src="require('assets/images/plus.svg')"
       :width="$mq === 'mobile' ? 8 : 17"
     />
-    รายชื่อ<br />
+    ดูรายชื่อ<br />
     คดี
   </div>
 </template>

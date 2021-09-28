@@ -36,27 +36,27 @@
   }
 }
 .H_01 {
-  font-size: 90px;
-  font-weight: 900;
-  font-family: 'KondolarThai';
-  @media screen and (max-width: 767px) {
-    font-size: 24px;
-  }
-}
-.H_02 {
   font-size: 75px;
   font-weight: 900;
   font-family: 'KondolarThai';
   @media screen and (max-width: 767px) {
-    font-size: 21px;
+    font-size: 50px;
   }
 }
-.H_03 {
+.H_02 {
   font-size: 60px;
   font-weight: 900;
   font-family: 'KondolarThai';
   @media screen and (max-width: 767px) {
-    font-size: 17px;
+    font-size: 40px;
+  }
+}
+.H_03 {
+  font-size: 50px;
+  font-weight: 900;
+  font-family: 'KondolarThai';
+  @media screen and (max-width: 767px) {
+    font-size: 35px;
   }
 }
 .H_04 {
@@ -64,7 +64,7 @@
   font-weight: 900;
   font-family: 'KondolarThai';
   @media screen and (max-width: 767px) {
-    font-size: 15px;
+    font-size: 20px;
   }
 }
 .H_05 {
@@ -72,7 +72,7 @@
   font-weight: 900;
   font-family: 'KondolarThai';
   @media screen and (max-width: 767px) {
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 
@@ -80,47 +80,61 @@
   font-size: 33px;
   font-family: 'Anuphan';
   @media screen and (max-width: 767px) {
-    font-size: 16px;
+    font-size: 23px;
   }
 }
 .B_02 {
   font-size: 27px;
   font-family: 'Anuphan';
   @media screen and (max-width: 767px) {
-    font-size: 14.5px;
+    font-size: 19px;
   }
 }
 .B_03 {
+  // note
   font-size: 23px;
   font-family: 'Anuphan';
   @media screen and (max-width: 767px) {
-    font-size: 13.5px;
+    font-size: 16px;
   }
-  @media screen and (max-width: 569px) {
-    font-size: 12px;
-  }
+  // @media screen and (max-width: 569px) {
+  //   font-size: 12px;
+  // }
 }
 .B_04 {
   font-size: 19px;
   font-family: 'Anuphan';
   @media screen and (max-width: 767px) {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 .B_05 {
-  font-size: 15px;
+  //note
+  font-size: 16px;
   font-family: 'Anuphan';
   @media screen and (max-width: 767px) {
-    font-size: 9px;
+    font-size: 12px;
   }
-  @media screen and (max-width: 569px) {
-    font-size: 7px;
-  }
+  // @media screen and (max-width: 569px) {
+  //   font-size: 7px;
+  // }
 }
+
 .B_06 {
   font-size: 11px;
   font-family: 'Anuphan';
   @media screen and (max-width: 767px) {
     font-size: 6px;
   }
+}
+.header_table {
+  //note
+  font-size: 16px;
+  font-family: 'Anuphan';
+  @media screen and (max-width: 767px) {
+    font-size: 8px;
+  }
+  // @media screen and (max-width: 569px) {
+  //   font-size: 7px;
+  // }
 }

@@ -34,7 +34,8 @@
       :src="require('assets/images/close.svg')"
       class="
         absolute
-        top-0
+        lg:top-0
+        top-[45px]
         right-0
         cursor-pointer
         w-[16px]

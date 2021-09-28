@@ -2,7 +2,7 @@
   <div id="hint-wrapper" class="flex">
     <div
       v-for="hint in hint_data"
-      :key="hint.name"
+      :key="hint.key"
       class="flex items-center B_05 md:mx-2.5 mx-1.5"
     >
       <div
@@ -15,13 +15,15 @@
           border border-black
         "
         :class="{
-          'bg-positiveGreen': hint.name === 'ผลบวกต่อรัฐบาล',
-          'bg-negativeRed': hint.name === 'ผลลบต่อรัฐบาล',
-          'bg-absentGray': hint.name === 'เหตุการณ์',
-          'border-absentGray': hint.name === 'เหตุการณ์',
+          'bg-positiveGreen': hint.key === 'ผลบวก',
+          'bg-negativeRed': hint.key === 'ผลลบ',
+          'bg-absentGray': hint.key === 'เหตุการณ์',
+          'border-absentGray': hint.key === 'เหตุการณ์',
         }"
       />
-      <p class="ml-[5px]">{{ hint.name }}</p>
+      <p class="ml-[5px]">
+        {{ $mq === 'mobile' ? hint.name_mobile : hint.name_desktop }}
+      </p>
     </div>
   </div>
 </template>
@@ -31,9 +33,17 @@ export default {
   data() {
     return {
       hint_data: [
-        { name: 'ผลบวกต่อรัฐบาล' },
-        { name: 'ผลลบต่อรัฐบาล' },
-        { name: 'เหตุการณ์' },
+        {
+          name_desktop: 'ผลบวกต่อรัฐบาล',
+          name_mobile: 'เป็นผลบวก',
+          key: 'ผลบวก',
+        },
+        { name_desktop: 'ผลลบต่อรัฐบาล', name_mobile: 'เป็นผลลบ', key: 'ผลลบ' },
+        {
+          name_desktop: 'เหตุการณ์',
+          name_mobile: 'เหตุการณ์',
+          key: 'เหตุการณ์',
+        },
       ],
     }
   },

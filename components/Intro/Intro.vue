@@ -2,7 +2,9 @@
   <div id="intro-wrapper">
     <div class="relative">
       <div class="h-screen" />
-      <div class="absolute top-[7%] z-20 w-full md:h-[2%] h-[50px]">
+      <div
+        class="absolute top-[200px] md:top-[7%] z-20 w-full md:h-[2%] h-[50px]"
+      >
         <div
           class="
             left-[50%]
@@ -55,8 +57,8 @@
           top-0
           z-40
           w-[200px]
-          md:w-[500px] md:top-[12%]
-          top-[13%]
+          md:w-[500px] md:top-[12%] md:top-[13%]
+          top-[350px]
           left-[50%]
         "
         style="transform: translateX(-50%)"
@@ -71,7 +73,15 @@
       />
       <img
         :src="require(`assets/images/mobile_newspaper.png`)"
-        class="absolute top-[15%] z-10 h-[50%] object-cover md:hidden"
+        class="
+          absolute
+          top-[400px]
+          md:top-[15%]
+          z-10
+          h-[845px]
+          object-cover
+          md:hidden
+        "
       />
 
       <IntroStep />

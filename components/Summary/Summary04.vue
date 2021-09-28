@@ -1,7 +1,7 @@
 <template>
   <div id="summary-04-wrapper">
     <img
-      :src="require(`assets/images/summary_01.png`)"
+      :src="require(`assets/images/summary_04.png`)"
       class="mx-auto mt-6 md:mt-16 mb-7 w-[175px] md:w-[292px]"
     />
     <div id="content" class="w-10/12 mx-auto lg:max-w-[648px] B_04">

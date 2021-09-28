@@ -24,8 +24,8 @@
         <img
           slot="reference"
           class="
-            w-[30px]
-            h-[30px]
+            w-[45px]
+            h-[45px]
             md:w-[60px] md:h-[60px]
             lg:w-[70px] lg:h-[70px]
             rounded-full
