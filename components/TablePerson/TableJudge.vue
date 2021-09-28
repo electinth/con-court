@@ -21,8 +21,8 @@
         <img
           slot="reference"
           class="
-            w-[15px]
-            h-[15px]
+            w-[18px]
+            h-[18px]
             md:w-[30px] md:h-[30px]
             lg:w-[40px] lg:h-[40px]
             rounded-full
@@ -49,7 +49,7 @@
             flex
             items-center
             justify-center
-            py-[5px]
+            py-[7px]
             md:py-[18px]
             relative
           "
