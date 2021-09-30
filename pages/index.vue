@@ -3,7 +3,7 @@
     <elect-navbar
       title-text="Constitutional Court"
       dark="false"
-      class="fixed lg:absolute z-[99] w-screen"
+      class="fixed lg:absolute z-[99] w-screen overflow-x-hidden"
     >
       <div class="flex items-center space-x-5 text-white B_05">
         <div @click="ScrollToTimeLine" class="cursor-pointer">Timeline</div>

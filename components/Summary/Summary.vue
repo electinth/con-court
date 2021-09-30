@@ -1,5 +1,8 @@
 <template>
-  <div id="summary" class="container flex flex-col items-center mx-auto mb-36">
+  <div
+    id="summary"
+    class="container flex flex-col items-center mx-auto overflow-x-hidden mb-36"
+  >
     <div class="w-11/12 lg:max-w-[745px] mx-auto mt-36 B_03 text-center">
       จากตัวอย่างข้อมูลทั้งหมด สะท้อนว่า
       ศาลรัฐธรรมนูญได้สร้างผลลัพธ์สำคัญทางการเมืองหลายครั้งในรอบระยะเวลา 10
