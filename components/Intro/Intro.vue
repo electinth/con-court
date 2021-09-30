@@ -1,5 +1,5 @@
 <template>
-  <div id="intro-wrapper" class="overflow-x-hidden">
+  <div id="intro-wrapper" class="overflow-x-hidden max-w-screen">
     <div class="relative">
       <div class="h-screen" />
       <div
