@@ -21,7 +21,7 @@
           <div v-for="(item, index) in d.data" :key="index" class="m-1 md:m-2">
             <el-popover
               placement="bottom"
-              :width="$mq === 'mobile' ? 200 : 240"
+              :width="$mq === 'mobile' ? 210 : 260"
               trigger="click"
             >
               <PopOver

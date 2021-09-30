@@ -4,7 +4,7 @@
       {{ person.name_surname_person }}
     </p>
     <p id="position" class="B_05">
-      ที่มา <span v-html="person.position_person" />
+      แต่งตั้งตาม: <span v-html="person.position_person" />
     </p>
     <div id="person-case-wrapper" class="grid grid-cols-2 mt-2">
       <div

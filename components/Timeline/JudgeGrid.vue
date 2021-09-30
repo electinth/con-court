@@ -17,7 +17,7 @@
     >
       <el-popover
         placement="bottom"
-        :width="$mq === 'mobile' ? 200 : 240"
+        :width="$mq === 'mobile' ? 210 : 260"
         trigger="click"
       >
         <PopOver :person="j" :case_list_formated="PersonCase(j)" />
