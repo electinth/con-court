@@ -4,18 +4,17 @@
       id="wrapper"
       class="px-5 py-5 text-center border border-black B_04 bg-tableHead"
     >
-      <div class="font-bold">
-        1. กลุ่มตุลาการรัฐธรรมนูญ <br />"โหวตดีต่อรัฐบาลสายทักษิณ ชินวัตร 100%"
-      </div>
+      <div class="font-bold">1. กลุ่ม "โหวตดีต่อรัฐบาลสายทักษิณ ชินวัตร"</div>
       <div>
-        โดยลงมติเป็นผลบวกกับฝั่งการเมือง สายทักษิณ ชินวัตร ที่มีอำนาจในช่วงนั้น
+        ตั้งแต่ปี พ.ศ. 2540 - 2549 มีตุลาการ 6 คน
+        ลงมติทั้งหมดเป็นผลบวกต่อรัฐบาลสายทักษิณ ชินวัตร ที่มีอำนาจในช่วงนั้น
       </div>
     </div>
     <div id="group-img" class="flex flex-wrap justify-center mt-7">
       <div v-for="(item, index) in data" :key="index" class="m-1 md:m-2">
         <el-popover
           placement="bottom"
-          :width="$mq === 'mobile' ? 150 :240"
+          :width="$mq === 'mobile' ? 200 : 240"
           trigger="click"
         >
           <PopOver

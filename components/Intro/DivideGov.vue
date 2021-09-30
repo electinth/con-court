@@ -1,7 +1,7 @@
 <template>
   <div id="divide-gov-wrapper" class="relative z-40 bg-white">
     <p class="font-bold text-center B_02" id="title">
-      โดยเราจะแบ่งรัฐบาลออกเป็น 2 กลุ่มหลัก
+      สามารถแบ่งกลุ่มรัฐบาลได้ 2 กลุ่ม
     </p>
     <div
       id="divide-era"
@@ -89,7 +89,7 @@ export default {
   data() {
     return {
       tony: {
-        title: 'กลุ่มรัฐบาลสายทักษิณ ชินวัตร',
+        title: 'รัฐบาลสายทักษิณ ชินวัตร',
         list: [
           {
             name: 'รัฐบาลทักษิณ ชินวัตร',
@@ -102,7 +102,7 @@ export default {
             img: require('../../assets/images/สมัคร_สุนทรเวช.svg'),
           },
           {
-            name: 'รัฐบาลสมชาย วงศ์สวัสด',
+            name: 'รัฐบาลสมชาย วงศ์สวัสดิ์',
             date: '(พ.ศ. 2551)',
             img: require('../../assets/images/สมชาย_วงศ์สวัสดิ์.svg'),
           },
@@ -114,7 +114,7 @@ export default {
         ],
       },
       soldier: {
-        title: 'กลุ่มรัฐบาลกลุ่มอำนาจเก่า และทหาร',
+        title: 'รัฐบาลสายอำนาจเก่า และทหาร',
         list: [
           {
             name: 'รัฐบาลสุรยุทธ์ จุลานนท์',

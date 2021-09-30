@@ -96,15 +96,21 @@
       <p class="font-bold H_05">อาสาสมัครร่วมพัฒนา</p>
       <div class="B_05 mt-7">
         <p class="font-bold">เขียนโปรแกรม</p>
-        <p class="mt-2">โสภณ จำปาซ่อนกลิ่น</p>
+        <p class="mt-2">
+          <a href="https://github.com/MEEP00H" target="_blank"
+            >โสภณ จำปาซ่อนกลิ่น</a
+          >
+        </p>
         <p class="mt-3 font-bold md:mt-7">ออกแบบ</p>
         <p class="mt-2">นัฐพล ไก่แก้ว</p>
-        <p class="mt-3 font-bold md:mt-7">สืบค้นและรวบรวมข้อมู</p>
+        <p class="mt-3 font-bold md:mt-7">สืบค้นและรวบรวมข้อมูล</p>
         <p class="mt-2">สิทธิกานต์ ธีระวัฒนชัย</p>
         <p class="mt-3 font-bold md:mt-7">บรรณาธิการ</p>
         <p class="mt-2">ธนิสรา เรืองเดช</p>
         <p class="mt-3 font-bold md:mt-7">ประสานงานและจัดการอื่นๆ</p>
-        <p class="mt-2">Punch Up</p>
+        <p class="mt-2">
+          <a href="https://punchup.world/" target="_blank"> Punch Up</a>
+        </p>
         <p class="mt-3 font-bold md:mt-7">ร่วมพัฒนาโครงการ</p>
         <p class="mt-2">
           ตรวจสอบ ติดตาม และร่วมพัฒนาโปรเจ็กต์ได้ทาง Github
@@ -119,7 +125,7 @@
       </div>
     </div>
     <a
-      href="https://docs.google.com/spreadsheets/d/1HjASiOaEyTt--Yz3bj0sEuCOw6C_Kx76kO8Myvm_lYA/edit?pli=1#gid=0"
+      href="https://docs.google.com/spreadsheets/d/1uCAJUVD33WeFzcLB7fanViWEiB7jMA-ji7JwZJiACrI/edit#gid=356259743 "
       target="_blank"
       id="download_data"
       class="flex items-center px-6 py-2 mx-auto mt-20 border-2 border-black cursor-pointer  w-max"
