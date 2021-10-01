@@ -76,7 +76,7 @@ export default {
         type: 'image/x-icon',
         href: '/con-court/favicon.ico',
       },
-      { rel: 'stylesheet', href: 'https://elect.in.th/assets/typography.css' },
+      { rel: 'stylesheet', href: 'https://assets.elect.in.th/typography.css' },
     ],
     script: [
       {
