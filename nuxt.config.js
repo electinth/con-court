@@ -1,5 +1,5 @@
-// const BASE_URL = 'https://elect.in.th/con-court/'
-const BASE_URL = 'https://electinth.github.io/con-court/'
+const BASE_URL = 'https://elect.in.th/con-court/'
+// const BASE_URL = 'https://electinth.github.io/con-court/'
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -78,6 +78,14 @@ export default {
       },
       { rel: 'stylesheet', href: 'https://elect.in.th/assets/typography.css' },
     ],
+    script: [
+      {
+        src: "https://analytics.punchup.world/js/plausible.js",
+        async: true,
+        defer: true,
+
+      },
+    ],
 
   },
 
@@ -109,7 +117,12 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ['nuxt-mq'],
+  modules: ['nuxt-mq', 'vue-plausible'],
+
+  plausible: {
+    domain: 'elect.in.th/con-court',
+    apiHost: 'https://plausible.anyon.ml',
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

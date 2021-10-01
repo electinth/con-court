@@ -57,8 +57,8 @@ export default {
   },
   data() {
     return {
-      // BASE_URL: 'https://elect.in.th/con-court/',
-      BASE_URL: 'https://electinth.github.io/con-court/',
+      BASE_URL: 'https://elect.in.th/con-court/',
+      // BASE_URL: 'https://electinth.github.io/con-court/',
     }
   },
 }
