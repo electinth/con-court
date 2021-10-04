@@ -111,7 +111,7 @@
         <p class="mt-2">
           <a href="https://punchup.world/" target="_blank"> Punch Up</a>
         </p>
-        <p class="mt-3 font-bold md:mt-7">ร่วมพัฒนาโครงการ</p>
+        <p class="mt-6 font-bold H_05 md:mt-28">ร่วมพัฒนาโครงการ</p>
         <p class="mt-2">
           ตรวจสอบ ติดตาม และร่วมพัฒนาโปรเจ็กต์ได้ทาง Github
           โค้ดบนเว็บไซต์ทั้งหมดถูกเปิดเผยแบบสาธารณะเพื่อความโปร่งใสในการดำเนินการและพัฒนา

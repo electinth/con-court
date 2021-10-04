@@ -121,7 +121,7 @@ export default {
 
   plausible: {
     domain: 'elect.in.th/con-court',
-    apiHost: 'https://plausible.anyon.ml',
+    apiHost: 'https://analytics.punchup.world',
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
